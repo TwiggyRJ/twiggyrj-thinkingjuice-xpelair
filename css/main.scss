@@ -2,6 +2,7 @@ $primary-green: #009367;
 $primary-font: #231f20;
 $white: #ffffff;
 $grey: #282828;
+$nav-grey: #cfcfcf;
 $font-stack: Brandon Grotesque, sans-serif;
 
 html{
@@ -19,21 +20,41 @@ body{
 }
 
 nav{
-	border-bottom: 3px solid $primary-green;
 	text-align: center;
 	width: 100%;
 	padding-top: 1%;
 	padding-bottom: 1%;
 }
 
+nav ul{
+	position: absolute;
+	list-style: none outside none;
+    margin: 0;
+    padding: 0;
+	float: left;
+	width: 100%;
+	border-bottom: 3px solid $primary-green;
+}
+
+nav li{
+	text-decoration: none;
+	float: left;
+}
+
 nav a{
-	padding: 20px 5px;
+	padding: 5px 25px;
 	font-size: 1.2em;
+	display: block;
 }
 
 nav a:link{ 
 	color: $primary-font;
 	text-decoration: none;
+}
+
+nav a:visited{ 
+	color: $primary-font;
+	text-decoration: none !important;
 }
 
 nav a:hover{ 
@@ -42,8 +63,7 @@ nav a:hover{
 }
 
 nav img{
-	width: 10%;
-	margin-right: 5%;
+	width: 60%;
 }
 
 #top-nav{
@@ -54,13 +74,15 @@ nav img{
 }
 
 #top-header-social{
-	margin: 10%;
+	margin: 15%;
 }
 
 #top-header-login{
 	float: right;
-	width: 30%;
+	width: 35%;
 }
+
+
 
 #top-nav a{
 	font-size: 1.2em;
@@ -70,6 +92,24 @@ nav img{
 #top-nav a:link{ 
 	color: $white;
 	text-decoration: none;
+}
+
+#top-nav a:visited{
+	color: $white;
+	text-decoration: none !important;
+}
+
+#nav-logo{
+	margin-left: 13%;
+	margin-bottom: 1%;
+}
+
+.nav-link{
+	padding-top: 1%;
+}
+
+.nav-link-first{
+	margin-left: 1%;
 }
 
 .button{
@@ -83,4 +123,45 @@ nav img{
 
 .button-primary{
 	background-color: $primary-green;
+}
+
+.social-buttons{
+	padding: 1% !important;
+	color: $nav-grey !important;
+}
+
+.search-button{
+	background-color: #eeeeee;
+}
+
+@media all and (max-width : 1444px) {
+	
+	#nav-logo{
+		margin-left: 8%;
+	}
+	
+	#top-header-social{
+		margin: 10%;
+	}
+	
+	#top-header-login{
+		width: 30%;
+	}
+	
+}
+
+@media all and (max-width : 980px) {
+	
+	#nav-logo{
+		margin-left: 8%;
+	}
+	
+	#top-header-social{
+		margin: 10%;
+	}
+	
+	#top-header-login{
+		width: 30%;
+	}
+	
 }
