@@ -49,6 +49,14 @@ nav a:hover {
 nav img {
   width: 60%; }
 
+#hero-banner {
+  background-color: #000000; }
+
+#hero-banner p {
+  vertical-align: top;
+  margin-left: 5%;
+  color: #ffffff; }
+
 #top-nav {
   background-color: #000000;
   width: 100%;
