@@ -54,11 +54,36 @@ nav img {
   background-color: #000000;
   padding-top: 4%; }
 
+#hero-image {
+  position: relative; }
+
+#hero-image img {
+  width: 25%; }
+
 #hero-banner p {
   font-size: 0.9em;
   vertical-align: top;
   margin-left: 16%;
   color: #ffffff; }
+
+#hero-banner h1 {
+  font-size: 3.8em;
+  text-align: center;
+  color: #ffffff;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 100%; }
+
+#hero-banner h2 {
+  font-size: 3.8em;
+  font-weight: lighter;
+  text-align: center;
+  color: #ffffff;
+  position: absolute;
+  top: 70px;
+  left: 0;
+  width: 100%; }
 
 #top-nav {
   background-color: #000000;
