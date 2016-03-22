@@ -130,6 +130,15 @@ nav {
     padding-top: 10%;
     padding-left: 5%; }
 
+#brochure-middle {
+  background-color: #eeeeee; }
+  #brochure-middle header {
+    margin-left: 5%; }
+  #brochure-middle h2 {
+    font-size: 2em;
+    font-weight: 400;
+    text-align: center; }
+
 .nav-link {
   padding-top: 1%; }
 
