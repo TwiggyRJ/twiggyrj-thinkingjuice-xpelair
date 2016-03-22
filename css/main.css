@@ -109,10 +109,17 @@ nav {
   margin-bottom: 1%; }
 
 #brochure-top {
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  text-align: center;
+  margin-bottom: 3%; }
   #brochure-top p {
     font-size: 1.2em;
-    padding: 0.5% 15%; }
+    padding: 0.5% 15%;
+    text-align: left !important; }
+  #brochure-top span a {
+    display: inline-block;
+    margin-left: 5%;
+    margin-top: 1%; }
 
 #variant-icons {
   display: table;
@@ -138,6 +145,19 @@ nav {
 
 .button-primary {
   background-color: #009367; }
+
+.button-brochure {
+  background-color: #01865e;
+  font-weight: lighter;
+  color: #ffffff;
+  text-decoration: none !important;
+  border-radius: 1px; }
+  .button-brochure a:link {
+    color: #ffffff;
+    text-decoration: none !important; }
+  .button-brochure a:visited {
+    color: #ffffff;
+    text-decoration: none !important; }
 
 .social-buttons {
   padding: 1% !important;
