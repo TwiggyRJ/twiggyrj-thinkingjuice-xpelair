@@ -44,7 +44,8 @@ nav {
     width: 60%; }
 
 #hero-image {
-  position: relative; }
+  position: relative;
+  margin-bottom: -10%; }
   #hero-image img {
     width: 25%; }
 
@@ -111,7 +112,16 @@ nav {
   background-color: #ffffff; }
   #brochure-top p {
     font-size: 1.2em;
-    padding: 0 15%; }
+    padding: 0.5% 15%; }
+
+#variant-icons {
+  display: table;
+  margin: 0 auto;
+  padding-left: 6%; }
+  #variant-icons img {
+    width: 15%;
+    padding-top: 10%;
+    padding-left: 5%; }
 
 .nav-link {
   padding-top: 1%; }
