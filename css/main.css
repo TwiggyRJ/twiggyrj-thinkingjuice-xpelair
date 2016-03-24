@@ -260,11 +260,21 @@ footer {
     text-decoration: none !important; }
   #footer-head-block h2 {
     margin: 0%;
-    margin-top: -2% !important; }
+    margin-top: -2% !important;
+    font-size: 1.25em; }
   #footer-head-block img {
     margin-top: 8%; }
   #footer-head-block p {
     margin: 0%; }
+
+#footer-bottom-block {
+  background-color: #ffffff;
+  color: #0d0d0d;
+  padding-left: 14% !important;
+  padding: 0.7%; }
+  #footer-bottom-block p {
+    margin: 0%;
+    font-size: 0.9em; }
 
 #footer-social {
   font-size: 1.2em;
@@ -351,6 +361,8 @@ footer {
 
 .button-primary {
   background-color: #009367; }
+  .button-primary a:hover {
+    background-color: #006143; }
 
 .button-brochure {
   background-color: #01865e;
@@ -364,6 +376,13 @@ footer {
   .button-brochure a:visited {
     color: #ffffff;
     text-decoration: none !important; }
+
+a:hover {
+  -moz-transition: all 300ms ease-in-out 0s;
+  -ms-transition: all 300ms ease-in-out 0s;
+  -o-transition: all 300ms ease-in-out 0s;
+  -webkit-transition: all 300ms ease-in-out 0s;
+  transition: all 300ms ease-in-out 0s; }
 
 .social-buttons {
   padding: 1% !important;
