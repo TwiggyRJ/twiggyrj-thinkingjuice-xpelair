@@ -144,9 +144,68 @@ nav {
     font-size: 0.9em;
     text-align: center; }
 
+#brochure-bottom {
+  background-color: #ffffff;
+  padding: 2%; }
+  #brochure-bottom header {
+    margin-left: 1%; }
+  #brochure-bottom h2 {
+    font-size: 2em;
+    font-weight: 400;
+    text-align: center; }
+  #brochure-bottom h3 {
+    font-size: 1.6em;
+    font-weight: 400;
+    text-align: center;
+    margin-left: -60%; }
+  #brochure-bottom h4 {
+    font-size: 1.2em;
+    font-weight: 400;
+    text-align: center;
+    margin-left: -60%;
+    margin-top: -5%; }
+  #brochure-bottom img {
+    width: 40%; }
+  #brochure-bottom table {
+    margin-left: -25%;
+    width: 89%;
+    border-collapse: collapse; }
+    #brochure-bottom table img {
+      width: 20%; }
+  #brochure-bottom tr {
+    border: 1px solid #e4e4e4; }
+  #brochure-bottom td {
+    padding: 5%; }
+
 #feature-block {
   width: 50%;
   margin-left: 29%; }
+
+#carousel-block {
+  width: 75%;
+  margin-left: 19%; }
+
+#carousel-last-image {
+  width: 50% !important; }
+
+#carousel-last-header {
+  margin-top: 16%; }
+
+.carousel-border-block {
+  border-bottom: 5px solid #009367;
+  margin-top: 5%;
+  margin-left: -25%;
+  width: 89%; }
+
+.carousel-price {
+  color: #009367; }
+
+.carousel-row-right {
+  text-align: right; }
+
+.carousel-table-button-block {
+  margin-left: -25%;
+  margin-top: 5%; }
 
 .nav-link {
   padding-top: 1%; }
@@ -154,9 +213,25 @@ nav {
 .nav-link-first {
   margin-left: 1%; }
 
+.table-row-alt {
+  background-color: #eeeeee; }
+
 .button {
   font-size: 1.2em;
   padding: 1% 2.5% !important; }
+
+.button-buy {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #009367;
+  padding: 1.1% 11.1% !important;
+  margin-left: 3%; }
+
+.button-discover {
+  border: 1px solid #231f20;
+  color: #231f20;
+  text-decoration: none;
+  padding: 1% 7% !important; }
 
 .button-fav {
   background-color: #282828; }
@@ -224,6 +299,23 @@ nav {
     margin: 1% 0 1% 0%; }
 
   .span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 {
+    width: 100%; } }
+/*  GRID OF THREE  */
+.span_3_of_3 {
+  width: 100%; }
+
+.span_2_of_3 {
+  width: 66.13%; }
+
+.span_1_of_3 {
+  width: 32.26%; }
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+  .col {
+    margin: 1% 0 1% 0%; }
+
+  .span_3_of_3, .span_2_of_3, .span_1_of_3 {
     width: 100%; } }
 .social-buttons {
   padding: 1% !important;
