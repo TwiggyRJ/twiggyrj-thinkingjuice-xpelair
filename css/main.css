@@ -183,13 +183,25 @@ nav {
 
 #carousel-block {
   width: 75%;
-  margin-left: 19%; }
+  margin-left: 19%;
+  position: relative; }
 
 #carousel-last-image {
   width: 50% !important; }
 
 #carousel-last-header {
   margin-top: 16%; }
+
+#carousel-controls {
+  position: absolute;
+  margin-top: 24%;
+  width: 200%; }
+
+#carousel-control-left {
+  margin-left: -10%; }
+
+#carousel-control-right {
+  margin-left: 59%; }
 
 .carousel-border-block {
   border-bottom: 5px solid #009367;
