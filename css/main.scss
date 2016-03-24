@@ -280,6 +280,53 @@ footer{
 
 #footer-head-block{
 
+	padding: 2% 14%;
+	padding-right: 1% !important;
+	
+	a{
+		font-size: 1.1em;
+		padding: 1% 1.5%;
+	}
+
+	a:link{ 
+		color: $white;
+		text-decoration: none;
+	}
+
+	a:visited{
+		color: $white;
+		text-decoration: none !important;
+	}
+	
+	h2{
+		margin: 0%;
+		margin-top: -2% !important;
+	}
+	
+	img{
+		margin-top: 8%;
+	}
+	
+	p{
+		margin: 0%;
+	}
+}
+
+#footer-social{
+	font-size: 1.2em;
+	margin-top: 1%;
+}
+
+#footer-second-block{
+	margin-left: -5%;
+}
+
+#footer-third-block{
+	margin-left: 4%;
+}
+
+#footer-fourth-block{
+	margin-left: 2%;
 }
 
 #feature-block{
@@ -396,6 +443,11 @@ footer{
 .social-buttons{
 	padding: 1% !important;
 	color: $nav-grey !important;
+}
+
+.social-buttons-footer{
+	padding: 3.6% !important;
+	color: $white !important;
 }
 
 .search-button{

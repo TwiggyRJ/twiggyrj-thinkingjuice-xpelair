@@ -246,6 +246,39 @@ footer {
   #brochure-bottom td {
     padding: 5%; }
 
+#footer-head-block {
+  padding: 2% 14%;
+  padding-right: 1% !important; }
+  #footer-head-block a {
+    font-size: 1.1em;
+    padding: 1% 1.5%; }
+  #footer-head-block a:link {
+    color: #ffffff;
+    text-decoration: none; }
+  #footer-head-block a:visited {
+    color: #ffffff;
+    text-decoration: none !important; }
+  #footer-head-block h2 {
+    margin: 0%;
+    margin-top: -2% !important; }
+  #footer-head-block img {
+    margin-top: 8%; }
+  #footer-head-block p {
+    margin: 0%; }
+
+#footer-social {
+  font-size: 1.2em;
+  margin-top: 1%; }
+
+#footer-second-block {
+  margin-left: -5%; }
+
+#footer-third-block {
+  margin-left: 4%; }
+
+#footer-fourth-block {
+  margin-left: 2%; }
+
 #feature-block {
   width: 50%;
   margin-left: 29%; }
@@ -335,6 +368,10 @@ footer {
 .social-buttons {
   padding: 1% !important;
   color: #cfcfcf !important; }
+
+.social-buttons-footer {
+  padding: 3.6% !important;
+  color: #ffffff !important; }
 
 .search-button {
   background-color: #eeeeee; }
