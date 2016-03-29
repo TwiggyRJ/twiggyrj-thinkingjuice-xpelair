@@ -104,7 +104,8 @@ nav {
     text-decoration: none !important; }
   nav a:hover {
     color: #231f20;
-    text-decoration: none; }
+    text-decoration: none;
+    background-color: #f3f3f3; }
   nav img {
     width: 60%; }
 
@@ -377,6 +378,24 @@ footer {
     color: #ffffff;
     text-decoration: none !important; }
 
+a.button-primary:hover {
+  background-color: #006143; }
+
+a.button-brochure:hover {
+  background-color: #006143; }
+
+a.button-discover:hover {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #000000; }
+
+a.button-fav:hover {
+  background-color: #0f0f0f !important; }
+
+a.button-login:hover {
+  color: #d9d9d9 !important; }
+
 a:hover {
   -moz-transition: all 300ms ease-in-out 0s;
   -ms-transition: all 300ms ease-in-out 0s;
@@ -394,6 +413,9 @@ a:hover {
 
 .search-button {
   background-color: #eeeeee; }
+
+a.social-buttons:hover {
+  color: #ffffff !important; }
 
 @media all and (max-width: 1444px) {
   #nav-logo {
