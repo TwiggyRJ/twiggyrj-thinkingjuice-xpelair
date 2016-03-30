@@ -435,5 +435,33 @@ a.social-buttons:hover {
 
   #top-header-login {
     width: 30%; } }
+@media all and (max-width: 480px) {
+  #brochure-bottom {
+    padding: 2%; }
+    #brochure-bottom header {
+      margin-left: 1%; }
+    #brochure-bottom h2 {
+      font-size: 1.5em; }
+    #brochure-bottom h3 {
+      font-size: 1.4em; }
+    #brochure-bottom h4 {
+      font-size: 1.1em; }
+    #brochure-bottom img {
+      margin-top: 1%;
+      width: 40%; }
+    #brochure-bottom table {
+      margin-left: -25%;
+      width: 89%;
+      border-collapse: collapse; }
+      #brochure-bottom table img {
+        width: 20%; }
+
+  #carousel-block {
+    width: 102%;
+    margin-left: 30%;
+    position: relative; }
+
+  .carousel-border-block {
+    width: 89%; } }
 
 /*# sourceMappingURL=main.css.map */
