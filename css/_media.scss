@@ -32,25 +32,32 @@
 
 @media all and (max-width : 480px) {
 	
+	#nav-logo{
+		display: initial !important;
+		float: left !important;
+		width: 25% !important;
+		margin-top: 1%;
+		overflow: hidden;
+	}
+	
+	#top-header-login{
+		width: 45%;
+	}
+	
 	#hero-banner{
 
-		padding-top: 4%;
+		padding-top: 10%;
 		
 		p{
-			font-size: 0.9em;
-			vertical-align: top;
-			margin-left: 16%;
-			color: $white;
+			margin-left: 5%;
 		}
 
 		h1{
-			font-size: 2.5em;
-
+			font-size: 2.3em;
 		}
 
 		h2{
 			font-size: 2em;
- 
 		}
 		
 	}
@@ -59,9 +66,10 @@
 
 		position: relative;
 		margin-bottom: -10%;
+		margin-top: -5%;
 		
 		img{
-			width: 25%;
+			width: 35%;
 		}
 	}
 	
@@ -147,6 +155,14 @@
 		display: none;
 	}
 	
+	.button-top-header-right{
+		display: none;
+	}
+	
+	.button-top-header-right-mobile{
+		display: initial;
+	}
+	
 	.carousel-controls-verticle{
 		display: initial;
 		margin-left: 17%;
@@ -154,6 +170,11 @@
 	
 	.carousel-border-block{
 		width: 89%;
+	}
+	
+	.mobile-link{
+		display: initial !important;
+		float: right;
 	}
 	
 }
