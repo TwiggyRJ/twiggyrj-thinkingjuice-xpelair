@@ -520,6 +520,12 @@ a.social-buttons:hover {
   #carousel-controls {
     display: none; }
 
+  #footer-third-block {
+    margin-left: -4%; }
+
+  #footer-fourth-block {
+    margin-left: -4%; }
+
   .button-top-header-right {
     display: none; }
 
@@ -532,6 +538,9 @@ a.social-buttons:hover {
 
   .carousel-border-block {
     width: 89%; }
+
+  .mobile-footer {
+    margin-left: -5% !important; }
 
   .mobile-link {
     display: initial !important;
