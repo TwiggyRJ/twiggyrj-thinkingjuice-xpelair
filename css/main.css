@@ -360,6 +360,9 @@ footer {
 .button-fav {
   background-color: #282828; }
 
+.carousel-controls-verticle {
+  display: none; }
+
 .button-primary {
   background-color: #009367; }
   .button-primary a:hover {
@@ -460,6 +463,13 @@ a.social-buttons:hover {
     width: 102%;
     margin-left: 30%;
     position: relative; }
+
+  #carousel-controls {
+    display: none; }
+
+  .carousel-controls-verticle {
+    display: initial;
+    margin-left: 17%; }
 
   .carousel-border-block {
     width: 89%; } }

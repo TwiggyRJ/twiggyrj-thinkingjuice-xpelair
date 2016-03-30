@@ -432,7 +432,9 @@ footer{
 .button-fav{
 	background-color: $grey;
 }
-
+.carousel-controls-verticle{
+	display: none;
+}
 
 @mixin transition($transition-300) {
   -moz-transition: $transition-300;
@@ -598,7 +600,15 @@ a.social-buttons:hover{
 		margin-left: 30%;
 		position: relative;
 	}
-
+	
+	#carousel-controls{
+		display: none;
+	}
+	
+	.carousel-controls-verticle{
+		display: initial;
+		margin-left: 17%;
+	}
 	
 	.carousel-border-block{
 		width: 89%;
