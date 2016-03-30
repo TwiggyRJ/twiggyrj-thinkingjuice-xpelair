@@ -557,6 +557,30 @@ a.social-buttons:hover{
 
 @media all and (max-width : 480px) {
 	
+	#brochure-middle{
+
+		background-color: #eeeeee;
+		padding: 3%;
+		
+		header{
+			margin-left: 1%;
+		}
+		
+		h2{
+			font-size: 1.5em;
+		}
+		
+		p{
+			width: 90%;
+			margin-left: -20%;
+		}
+	}
+	
+	#feature-block{
+		width: 50%;
+		margin-left: 37%;
+	}
+	
 	#brochure-bottom{
 	
 		padding: 2%;

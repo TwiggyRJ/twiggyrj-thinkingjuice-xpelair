@@ -439,6 +439,21 @@ a.social-buttons:hover {
   #top-header-login {
     width: 30%; } }
 @media all and (max-width: 480px) {
+  #brochure-middle {
+    background-color: #eeeeee;
+    padding: 3%; }
+    #brochure-middle header {
+      margin-left: 1%; }
+    #brochure-middle h2 {
+      font-size: 1.5em; }
+    #brochure-middle p {
+      width: 90%;
+      margin-left: -20%; }
+
+  #feature-block {
+    width: 50%;
+    margin-left: 37%; }
+
   #brochure-bottom {
     padding: 2%; }
     #brochure-bottom header {
