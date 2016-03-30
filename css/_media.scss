@@ -1,35 +1,3 @@
-@media all and (max-width : 1444px) {
-	
-	#nav-logo{
-		margin-left: 8%;
-	}
-	
-	#top-header-social{
-		margin: 10%;
-	}
-	
-	#top-header-login{
-		width: 30%;
-	}
-	
-}
-
-@media all and (max-width : 980px) {
-	
-	#nav-logo{
-		margin-left: 8%;
-	}
-	
-	#top-header-social{
-		margin: 10%;
-	}
-	
-	#top-header-login{
-		width: 30%;
-	}
-	
-}
-
 @media all and (max-width : 480px) {
 	
 	#nav-logo{
@@ -172,7 +140,7 @@
 	}
 	
 	.carousel-controls-verticle{
-		display: initial;
+		display: initial !important;
 		margin-left: 17%;
 	}
 	
