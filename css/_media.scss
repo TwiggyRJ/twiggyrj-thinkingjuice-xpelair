@@ -1,0 +1,159 @@
+@media all and (max-width : 1444px) {
+	
+	#nav-logo{
+		margin-left: 8%;
+	}
+	
+	#top-header-social{
+		margin: 10%;
+	}
+	
+	#top-header-login{
+		width: 30%;
+	}
+	
+}
+
+@media all and (max-width : 980px) {
+	
+	#nav-logo{
+		margin-left: 8%;
+	}
+	
+	#top-header-social{
+		margin: 10%;
+	}
+	
+	#top-header-login{
+		width: 30%;
+	}
+	
+}
+
+@media all and (max-width : 480px) {
+	
+	#hero-banner{
+
+		padding-top: 4%;
+		
+		p{
+			font-size: 0.9em;
+			vertical-align: top;
+			margin-left: 16%;
+			color: $white;
+		}
+
+		h1{
+			font-size: 2.5em;
+
+		}
+
+		h2{
+			font-size: 2em;
+ 
+		}
+		
+	}
+	
+	#hero-image{
+
+		position: relative;
+		margin-bottom: -10%;
+		
+		img{
+			width: 25%;
+		}
+	}
+	
+	#hero-fans{
+		width: 150% !important;
+		margin-top: 40%;
+		margin-left: -27%;
+	}
+	
+	nav li{
+		display: none;
+	}
+	
+	#brochure-middle{
+
+		background-color: #eeeeee;
+		padding: 3%;
+		
+		header{
+			margin-left: 1%;
+		}
+		
+		h2{
+			font-size: 1.5em;
+		}
+		
+		p{
+			width: 90%;
+			margin-left: -20%;
+		}
+	}
+	
+	#feature-block{
+		width: 50%;
+		margin-left: 37%;
+	}
+	
+	#brochure-bottom{
+	
+		padding: 2%;
+	
+		header{
+			margin-left: 1%;
+		}
+		
+		h2{
+			font-size: 1.5em;
+		}
+		
+		h3{
+			font-size: 1.4em;
+		}
+		
+		h4{
+			font-size: 1.1em;
+		}
+		
+		img{
+			margin-top: 1%;
+			width: 40%;
+		}
+		
+		table{
+		
+			margin-left: -25%;
+			width: 89%;
+			border-collapse: collapse;
+			
+			img{
+				width: 20%;
+			}
+			
+		}
+	}
+	
+	#carousel-block{
+		width: 102%;
+		margin-left: 30%;
+		position: relative;
+	}
+	
+	#carousel-controls{
+		display: none;
+	}
+	
+	.carousel-controls-verticle{
+		display: initial;
+		margin-left: 17%;
+	}
+	
+	.carousel-border-block{
+		width: 89%;
+	}
+	
+}
